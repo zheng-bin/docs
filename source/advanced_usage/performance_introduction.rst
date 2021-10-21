@@ -27,7 +27,11 @@ xuperchain网络搭建
 
 .. code-block:: bash
 
-    cd node* 
+    cd node1
+    cp data/genesis/xpos.json data/genesis/xuper.json
+    cd ../node2
+    cp data/genesis/xpos.json data/genesis/xuper.json
+    cd ../node3
     cp data/genesis/xpos.json data/genesis/xuper.json
     # 重复上述步骤在node1，node2，node3目录下执行。
 
